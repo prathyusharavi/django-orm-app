@@ -26,6 +26,7 @@ from django.contrib import admin
 
 #create your models here
 class Student (models.Model):
+   
     referencenumber=models.CharField(primary_key=True,max_length=20,help_text="reference number")
     name=models.CharField(max_length=100)
     age=models.IntegerField()
@@ -34,12 +35,14 @@ class Student (models.Model):
 
 
 class StudentAdmin(admin.ModelAdmin):
+
     list_display=('referencenumber','name','age','email','phoneno')
 
 admin.py
 
 from django.contrib import admin
 from .models import Student,StudentAdmin
+
 #register models here :
 admin.site.register(Student,StudentAdmin)
 
