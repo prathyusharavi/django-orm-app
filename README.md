@@ -24,7 +24,7 @@ from django.db import models
 from django.contrib import admin
 
 
-# Create your models here.
+#create your models here
 class Student (models.Model):
     referencenumber=models.CharField(primary_key=True,max_length=20,help_text="reference number")
     name=models.CharField(max_length=100)
@@ -40,7 +40,7 @@ admin.py
 
 from django.contrib import admin
 from .models import Student,StudentAdmin
-# Register your models here.
+#register models here :
 admin.site.register(Student,StudentAdmin)
 
 
