@@ -47,9 +47,11 @@ admin.site.register(Student,StudentAdmin)
 ```
 
 
-## OUTPUT
+## OUTPUT:
 
-![image](https://github.com/prathyusharavi/django-orm-app/assets/147474424/38e0c0c0-0749-4619-9332-407fdc5bd8c0)
+![Screenshot from 2023-10-29 19-02-30](https://github.com/prathyusharavi/django-orm-app/assets/147474424/9c4f0916-0282-424a-90f0-1dd1799dec3f)
+
+
 
 
 
