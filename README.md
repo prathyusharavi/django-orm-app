@@ -48,8 +48,7 @@ admin.site.register(Student,StudentAdmin)
 
 
 ## OUTPUT:
-
-![Screenshot from 2023-10-29 19-02-30](https://github.com/prathyusharavi/django-orm-app/assets/147474424/9c4f0916-0282-424a-90f0-1dd1799dec3f)
+![image](https://github.com/prathyusharavi/django-orm-app/assets/147474424/2e2fa041-0bef-49de-af88-6ef2e4d2d863)
 
 
 
